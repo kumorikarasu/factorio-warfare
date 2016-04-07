@@ -1,0 +1,10 @@
+{
+  "name": "kumori-warfare",
+  "version": "0.1.0",
+  "title": "Kumori's War Module",
+  "author": "kumori",
+  "contact": "kumori@ryougi.com",
+  "homepage": "N/A",
+  "description": "Contains military goods",
+  "dependencies": ["kumori-core"]
+}
