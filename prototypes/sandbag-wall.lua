@@ -13,7 +13,7 @@ data:extend({
     type = "recipe",
     name = "sandbag-wall",
     enabled = true,
-    ingredients = {{"iron-plate", 1}},
+    ingredients = {{"sand", 4}},
     result = "sandbag-wall"
   },
   {
