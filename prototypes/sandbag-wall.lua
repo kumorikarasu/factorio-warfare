@@ -1,29 +1,29 @@
 data:extend({
   {
     type = "item",
-    name = "sandbag-wall",
+    name = "ku-sandbag-wall",
     icon = "__kumori-warfare__/graphics/sandbag/wall-single.png",
     flags = {"goes-to-quickbar"},
     subgroup = "defensive-structure",
     order = "a[stone-wall]-a[stone-wall]",
-    place_result = "sandbag-wall",
+    place_result = "ku-sandbag-wall",
     stack_size = 50
   },
   {
     type = "recipe",
     name = "sandbag-wall",
     enabled = true,
-    ingredients = {{"sand", 4}},
-    result = "sandbag-wall"
+    ingredients = {{"ku-sand", 4}},
+    result = "ku-sandbag-wall"
   },
   {
     type = "pipe",
-    name = "sandbag-wall",
+    name = "ku-sandbag-wall",
     icon = "__kumori-warfare__/graphics/sandbag/wall-single.png",
     flags = {"placeable-neutral", "player-creation"},
     collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
-    minable = {mining_time = 1, result = "sandbag-wall"},
+    minable = {mining_time = 1, result = "ku-sandbag-wall"},
     fluid_box =
     {
       base_area = 1,
